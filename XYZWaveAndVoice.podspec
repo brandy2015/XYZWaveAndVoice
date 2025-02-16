@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'XYZWaveAndVoice'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'A library for voice recognition and voiceprint analysis.'
   s.description      = <<-DESC
                         XYZWaveAndVoice is a powerful library that enables voice recognition and voiceprint analysis.
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = 'https://github.com/yourusername/XYZWaveAndVoice'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Your Name' => 'youremail@example.com' }
+  s.author           = { 'Brando' => 'XYZTech@qq.com' }
   s.source           = { :git => 'https://github.com/brandy2015/XYZWaveAndVoice.git', :tag => s.version.to_s }
   s.source_files     = 'XYZWaveAndVoice/Sources/**/*'
   s.requires_arc     = true

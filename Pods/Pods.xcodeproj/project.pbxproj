@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 71;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,9 +18,9 @@
 		4AF6553C6506C48960090C7B1EEB622A /* Pods-XYZWaveAndVoice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYZWaveAndVoice.debug.xcconfig"; sourceTree = "<group>"; };
 		594C8E1769BD42A0BD5496C8607F6750 /* Pods-XYZWaveAndVoice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XYZWaveAndVoice-dummy.m"; sourceTree = "<group>"; };
 		89C84E7F0380EA132367C0ABB8CFD2FB /* Pods-XYZWaveAndVoice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYZWaveAndVoice.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B79A6933F6F9C1A163F1F455FC6D4936 /* Pods-XYZWaveAndVoice-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XYZWaveAndVoice-umbrella.h"; sourceTree = "<group>"; };
-		C0E764E097A9ED00A74308070756559B /* Pods-XYZWaveAndVoice */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XYZWaveAndVoice"; path = Pods_XYZWaveAndVoice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E764E097A9ED00A74308070756559B /* Pods_XYZWaveAndVoice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZWaveAndVoice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0838983C4166FDFE5B39A9159EB839 /* Pods-XYZWaveAndVoice-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYZWaveAndVoice-acknowledgements.plist"; sourceTree = "<group>"; };
 		ECE419DDB30005C9FD7EBCF47FBA6235 /* Pods-XYZWaveAndVoice-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XYZWaveAndVoice-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FE075ADF8F6ABD4F4889B7392E768356 /* Pods-XYZWaveAndVoice-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYZWaveAndVoice-Info.plist"; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		343036F4C0341656B465E95006D92990 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0E764E097A9ED00A74308070756559B /* Pods-XYZWaveAndVoice */,
+				C0E764E097A9ED00A74308070756559B /* Pods_XYZWaveAndVoice.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,7 +125,7 @@
 			);
 			name = "Pods-XYZWaveAndVoice";
 			productName = Pods_XYZWaveAndVoice;
-			productReference = C0E764E097A9ED00A74308070756559B /* Pods-XYZWaveAndVoice */;
+			productReference = C0E764E097A9ED00A74308070756559B /* Pods_XYZWaveAndVoice.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -146,8 +146,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 343036F4C0341656B465E95006D92990 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -198,7 +196,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-XYZWaveAndVoice/Pods-XYZWaveAndVoice-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -374,7 +372,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-XYZWaveAndVoice/Pods-XYZWaveAndVoice-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

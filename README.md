@@ -29,7 +29,7 @@ To install XYZWaveAndVoice via CocoaPods, add the following line to your `Podfil
 ```ruby
 pod 'XYZWaveAndVoice' 
 
- 
+```
 
 
 ## **Swift Package Manager (SPM)**

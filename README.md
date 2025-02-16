@@ -28,7 +28,7 @@ Watch the video demonstration of XYZWaveAndVoice in action:
 
 
 ## Demo Code
-(https://github.com/brandy2015/XYZWaveAndVoice/blob/main/XYZWaveAndVoice/VoiceInputViewController.swift)
+[Demo Code VC](https://github.com/brandy2015/XYZWaveAndVoice/blob/main/XYZWaveAndVoice/VoiceInputViewController.swift)
 
 ## Features
  

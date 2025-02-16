@@ -1,3 +1,5 @@
+ 
+
 Pod::Spec.new do |s|
   s.name             = 'XYZWaveAndVoice'
   s.version          = '0.0.3'
@@ -9,11 +11,17 @@ Pod::Spec.new do |s|
                         This library simplifies the integration of voice processing functionalities, enabling a seamless
                         user experience for voice-enabled applications.
                        DESC
-  s.homepage         = 'https://github.com/yourusername/XYZWaveAndVoice'
+  s.homepage         = 'https://github.com/brandy2015/XYZWaveAndVoice'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Brando' => 'XYZTech@qq.com' }
   s.source           = { :git => 'https://github.com/brandy2015/XYZWaveAndVoice.git', :tag => s.version.to_s }
   s.source_files     = 'XYZWaveAndVoice/Sources/**/*'
   s.requires_arc     = true
   s.frameworks       = 'Foundation', 'AVFoundation', 'Speech'
+  
+  # Specify Swift version
+  s.swift_versions   = ['5.0']
+
+  # Set the iOS deployment target to 15.0
+  s.ios.deployment_target = '15.0'
 end

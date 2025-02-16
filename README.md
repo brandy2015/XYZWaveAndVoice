@@ -38,7 +38,7 @@ To install XYZWaveAndVoice via Swift Package Manager, add the following to your 
 ```swift
 // In your Package.swift
 dependencies: [
-    .package(url: "https://github.com/brandy2015/XYZWaveAndVoice.git", from: "1.0.0")
+    .package(url: "https://github.com/brandy2015/XYZWaveAndVoice.git", .branch("main"))
 ]
 .target(
     name: "YourApp",

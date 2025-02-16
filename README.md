@@ -5,12 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/brandy2015/XYZWaveAndVoice/actions?query=workflow%3Abuild">
-    <img src="https://github.com/brandy2015/XYZWaveAndVoice/workflows/build/badge.svg?branch=master">
-  </a>
-  <a href="https://swiftpackageindex.com/brandy2015/XYZWaveAndVoice/master/documentation/xyzwaveandvoice">
-    <img src="https://img.shields.io/badge/Swift-Doc-DE5C43.svg?style=flat">
-  </a>
+ 
   <a href="https://cocoapods.org/pods/XYZWaveAndVoice">
     <img src="https://img.shields.io/github/v/tag/brandy2015/XYZWaveAndVoice.svg?color=blue&include_prereleases=&sort=semver">
   </a>

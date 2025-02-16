@@ -1,7 +1,9 @@
  
+
 import UIKit
 import AVFoundation
 import Speech
+import XYZWaveAndVoice
 
 class VoiceInputViewController: UIViewController, SFSpeechRecognizerDelegate {
     
@@ -19,9 +21,12 @@ class VoiceInputViewController: UIViewController, SFSpeechRecognizerDelegate {
         super.viewDidLoad()
         
         // Initialize speech recognizer
-        speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "zh_CN"))  // Set language to Chinese
-//        speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "en_US")) // Set language to English
-
+//        speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "zh_CN"))  // Set language to Chinese 
+        // Initialize speech recognizer for English
+           speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "en_US"))  // Set language to English
+           
+        
+        
         speechRecognizer?.delegate = self
         
         // Request authorization for speech recognition
@@ -39,12 +44,18 @@ class VoiceInputViewController: UIViewController, SFSpeechRecognizerDelegate {
 
     // Start the audio engine and speech recognition
     func startRecording() {
+ 
         // Initialize audioEngine
         audioEngine = AVAudioEngine()
 
         // Set audio session category to record
-        try! AVAudioSession.sharedInstance().setCategory(.record, mode: .default, options: .duckOthers)
-        try! AVAudioSession.sharedInstance().setActive(true, options: .notifyOthersOnDeactivation)
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.record, mode: .default, options: .duckOthers)
+            try AVAudioSession.sharedInstance().setActive(true, options: .notifyOthersOnDeactivation)
+        } catch {
+            print("Failed to configure audio session: \(error.localizedDescription)")
+            return
+        }
 
         // Create and configure audio buffer request for speech recognition
         recognitionRequest = SFSpeechAudioBufferRecognitionRequest()
@@ -73,16 +84,24 @@ class VoiceInputViewController: UIViewController, SFSpeechRecognizerDelegate {
         
         // Prepare and start the audio engine
         audioEngine.prepare()
-        try! audioEngine.start()
+        do {
+            try audioEngine.start()
+        } catch {
+            print("Audio engine start failed: \(error.localizedDescription)")
+        }
         
         self.transcribedTextView.text = "Listening..."
     }
 
     // Stop recording and recognition
     func stopRecording() {
-        // Stop the audio engine and recognition request
         audioEngine.stop()
         recognitionRequest.endAudio()
+        
+        // Clear recognition task
+        recognitionTask?.cancel()
+        recognitionTask = nil
+        
         self.transcribedTextView.text = "Stopped listening."
     }
     
@@ -106,12 +125,12 @@ class VoiceInputViewController: UIViewController, SFSpeechRecognizerDelegate {
     
     // Update meters for waveform visualization
     @objc func updateMeters() {
-        // Update audio recording levels
-        audioRecorder.updateMeters()
-
-        // Normalize volume and update waveform view
-        let normalizedValue = pow(10, audioRecorder.averagePower(forChannel: 0) / 20)
-        waveformView.updateWithLevel(CGFloat(normalizedValue))
+        guard let recorder = audioRecorder else { return }
+        
+        recorder.updateMeters()
+       
+        let normalizedValue = pow(10, recorder.averagePower(forChannel: 0) / 20)
+        self.waveformView.updateWithLevel(CGFloat(normalizedValue))
     }
 
     // Set up audio recorder for microphone input
@@ -124,7 +143,11 @@ class VoiceInputViewController: UIViewController, SFSpeechRecognizerDelegate {
         ]
 
         // Configure AVAudioSession for playback and recording
-        try! AVAudioSession.sharedInstance().setCategory(.playAndRecord, mode: .default)
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playAndRecord, mode: .default)
+        } catch {
+            print("Failed to set audio session: \(error.localizedDescription)")
+        }
 
         // Create AVAudioRecorder instance
         let recorder = try! AVAudioRecorder(url: filePath, settings: recorderSettings)
@@ -147,6 +170,15 @@ class VoiceInputViewController: UIViewController, SFSpeechRecognizerDelegate {
         displayLink.add(to: RunLoop.current, forMode: .common)
     }
 
+    // Stop recording when the view disappears
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        // Stop recording
+        audioRecorder.stop()
+        audioRecorder = nil
+    }
+
     // Start and stop recording actions
     @IBAction func startButtonTapped(_ sender: UIButton) {
         startRecording()
@@ -156,3 +188,5 @@ class VoiceInputViewController: UIViewController, SFSpeechRecognizerDelegate {
         stopRecording()
     }
 }
+
+

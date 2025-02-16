@@ -27,6 +27,9 @@ Watch the video demonstration of XYZWaveAndVoice in action:
 [XYZWaveAndVoice Demo Video](https://github.com/brandy2015/XYZWaveAndVoice/blob/main/Arts/demo.mov)
 
 
+## Demo Code
+(https://github.com/brandy2015/XYZWaveAndVoice/blob/main/XYZWaveAndVoice/VoiceInputViewController.swift)
+
 ## Features
  
 - **Speech-to-Text**: Accurately convert speech to text. 

@@ -6,8 +6,8 @@
 
 <p align="center">
  
-  <a href="https://cocoapods.org/pods/XYZWaveAndVoice">
-    <img src="https://img.shields.io/github/v/tag/brandy2015/XYZWaveAndVoice.svg?color=blue&include_prereleases=&sort=semver">
+ <a href="https://cocoapods.org/pods/XYZWaveAndVoice" target="_blank">
+    <img src="https://img.shields.io/github/v/tag/brandy2015/XYZWaveAndVoice.svg?color=blue&include_prereleases=&sort=semver" alt="CocoaPods version badge" />
   </a>
   <a href="https://swift.org/package-manager/">
     <img src="https://img.shields.io/badge/SPM-supported-DE5C43.svg?style=flat">

@@ -30,8 +30,7 @@ To install XYZWaveAndVoice via CocoaPods, add the following line to your `Podfil
 pod 'XYZWaveAndVoice' 
 
 ```
-
-
+ 
 ## **Swift Package Manager (SPM)**
 
 To install XYZWaveAndVoice via Swift Package Manager, add the following to your `Package.swift` file:
@@ -39,7 +38,7 @@ To install XYZWaveAndVoice via Swift Package Manager, add the following to your 
 ```swift
 // In your Package.swift
 dependencies: [
-    .package(url: "https://github.com/yourusername/XYZWaveAndVoice.git", from: "1.0.0")
+    .package(url: "https://github.com/brandy2015/XYZWaveAndVoice.git", from: "1.0.0")
 ]
 .target(
     name: "YourApp",

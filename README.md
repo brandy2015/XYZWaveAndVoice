@@ -21,6 +21,12 @@ XYZWaveAndVoice is a powerful iOS library designed for voice recognition and voi
 
 This library simplifies the integration of voice processing, providing a seamless user experience for voice-enabled applications.
 
+## Video Screen Recording
+
+Watch the video demonstration of XYZWaveAndVoice in action:  
+[XYZWaveAndVoice Demo Video](https://github.com/brandy2015/XYZWaveAndVoice/blob/main/Arts/demo.mov)
+
+
 ## Features
  
 - **Speech-to-Text**: Accurately convert speech to text. 

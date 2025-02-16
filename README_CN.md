@@ -39,8 +39,8 @@ XYZWaveAndVoice 是一款强大的 iOS 库，专为语音识别和语音的显�
  
 ## CocoaPods
  
-To install XYZWaveAndVoice via CocoaPods, add the following line to your `Podfile`:
-
+通过 CocoaPods 安装 XYZWaveAndVoice，请在您的 `Podfile` 中添加以下行：
+ 
 ```ruby
 pod 'XYZWaveAndVoice' 
 
@@ -48,7 +48,7 @@ pod 'XYZWaveAndVoice'
  
 ## **Swift Package Manager (SPM)**
 
-To install XYZWaveAndVoice via Swift Package Manager, add the following to your `Package.swift` file:
+通过 Swift Package Manager 安装 XYZWaveAndVoice，请将以下内容添加到您的 `Package.swift` 文件：
 
 ```swift
 // In your Package.swift

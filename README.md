@@ -1,5 +1,5 @@
 # XYZWaveAndVoice
-
+- [中文版本](https://github.com/brandy2015/XYZWaveAndVoice/blob/main/README_CN.md)
 <p align="center">
   <img src="https://github.com/brandy2015/XYZWaveAndVoice/blob/main/Arts/demo2.gif?raw=true" alt="XYZWaveAndVoice" title="XYZWaveAndVoice" width="557"/>
 </p>

@@ -1,7 +1,7 @@
 # XYZWaveAndVoice
 
 <p align="center">
-  <img src="https://your-image-link.com/logo.png" alt="XYZWaveAndVoice" title="XYZWaveAndVoice" width="557"/>
+ <img src="https://github.com/brandy2015/XYZWaveAndVoice/blob/main/Arts/demo2.gif?raw=true" alt="XYZWaveAndVoice" title="XYZWaveAndVoice" width="557"/>
 </p>
 
 <p align="center">

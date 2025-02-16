@@ -4,6 +4,7 @@ import UIKit
 
 @IBDesignable
 public class XYZWaveformView: UIView {
+    
     fileprivate var _phase: CGFloat = 0.0
     fileprivate var _amplitude: CGFloat = 0 // 振幅
     fileprivate var _amplitudeMultiply: CGFloat = 5 //增大

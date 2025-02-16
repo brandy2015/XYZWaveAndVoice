@@ -1,8 +1,8 @@
 # XYZWaveAndVoice
 ![CocoaPods Version](https://img.shields.io/cocoapods/v/XYZWaveAndVoice.svg)
 ![SPM Version](https://img.shields.io/github/package-json/v/brandy2015/XYZWaveAndVoice)
-
-
+![SPM Version]([https://img.shields.io/github/package-json/v/brandy2015/XYZWaveAndVoice](https://img.shields.io/badge/SPM-supported-DE5C43.svg?style=flat))
+ 
 XYZWaveAndVoice is a powerful iOS library designed for voice recognition and voiceprint analysis. It enables developers to integrate advanced voice biometric features, such as speaker identification, speech-to-text conversion, and voiceprint-based security, into their iOS applications. 
 
 This library simplifies the integration of voice processing, providing a seamless user experience for voice-enabled applications.

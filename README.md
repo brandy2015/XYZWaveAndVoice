@@ -24,13 +24,11 @@ XYZWaveAndVoice is a powerful iOS library designed for voice recognition and voi
 This library simplifies the integration of voice processing, providing a seamless user experience for voice-enabled applications.
 
 ## Features
-
-- **Speaker Identification**: Identify and differentiate between speakers.
-- **Speech-to-Text**: Accurately convert speech to text.
-- **Voiceprint Security**: Secure your application with unique voice patterns.
+ 
+- **Speech-to-Text**: Accurately convert speech to text. 
 - **Easy Integration**: Simplifies the process of adding voice functionalities to iOS apps.
 - **Seamless UX**: Enhance voice-enabled user experiences.
-
+- **Sound Wave Visualization**: Display dynamic sound waves as the user speaks, providing a visual representation of the voice input.
 ## Requirements
 
 - iOS 15.0+

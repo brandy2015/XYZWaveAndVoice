@@ -21,20 +21,18 @@ This library simplifies the integration of voice processing, providing a seamles
 - Speech Framework
 
 ## Installation
-
-### CocoaPods
+ 
+## CocoaPods
 
 To install XYZWaveAndVoice via CocoaPods, add the following line to your `Podfile`:
 
 ```ruby
 pod 'XYZWaveAndVoice' 
 
+ 
 
 
-
-
-
-### **Swift Package Manager (SPM)**
+## **Swift Package Manager (SPM)**
 
 To install XYZWaveAndVoice via Swift Package Manager, add the following to your `Package.swift` file:
 

@@ -20,7 +20,8 @@ class VoiceInputViewController: UIViewController, SFSpeechRecognizerDelegate {
         
         // Initialize speech recognizer
         speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "zh_CN"))  // Set language to Chinese
-        
+//        speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "en_US")) // Set language to English
+
         speechRecognizer?.delegate = self
         
         // Request authorization for speech recognition

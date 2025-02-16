@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XYZWaveAndVoice'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'A library for voice recognition and voiceprint analysis.'
   s.description      = <<-DESC
                         XYZWaveAndVoice is a powerful library that enables voice recognition and voiceprint analysis.

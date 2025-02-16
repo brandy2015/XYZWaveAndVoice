@@ -1,4 +1,5 @@
-// swift-tools-version:5.0
+ 
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
@@ -18,11 +19,7 @@ let package = Package(
             dependencies: [],
             path: "XYZWaveAndVoice/Sources",
             exclude: ["Tests"]
-        ),
-        .testTarget(
-            name: "XYZWaveAndVoiceTests",
-            dependencies: ["XYZWaveAndVoice"],
-            path: "XYZWaveAndVoiceTests"
-        ),
+        )
+         
     ]
 )

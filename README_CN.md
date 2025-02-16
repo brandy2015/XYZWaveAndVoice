@@ -23,6 +23,11 @@ XYZWaveAndVoice 是一款强大的 iOS 库，专为语音识别和语音的显�
 观看 XYZWaveAndVoice 的演示视频：  
 [XYZWaveAndVoice 演示视频](https://github.com/brandy2015/XYZWaveAndVoice/blob/main/Arts/demo.mov)
 
+
+## Demo 示例代码，零帧起手
+[Demo 示例代码](https://github.com/brandy2015/XYZWaveAndVoice/blob/main/XYZWaveAndVoice/VoiceInputViewController.swift)
+
+
 ## 功能
 
 - **语音转文本**: 准确地将语音转换为文本。

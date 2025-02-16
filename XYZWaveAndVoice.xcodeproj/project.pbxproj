@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6B7BE39334DA698E7CCD7809 /* Pods_XYZWaveAndVoice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A0FA058A796F053F1FBEC7 /* Pods_XYZWaveAndVoice.framework */; };
+		D60E8A5B2D61966C00C3F98C /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D60E8A5A2D61966C00C3F98C /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2790D6BE7F47EE353000FC07 /* Pods-XYZWaveAndVoice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZWaveAndVoice.debug.xcconfig"; path = "Target Support Files/Pods-XYZWaveAndVoice/Pods-XYZWaveAndVoice.debug.xcconfig"; sourceTree = "<group>"; };
 		57A0FA058A796F053F1FBEC7 /* Pods_XYZWaveAndVoice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZWaveAndVoice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		678900283FCE054845DEBFA7 /* Pods-XYZWaveAndVoice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZWaveAndVoice.release.xcconfig"; path = "Target Support Files/Pods-XYZWaveAndVoice/Pods-XYZWaveAndVoice.release.xcconfig"; sourceTree = "<group>"; };
+		D60E8A5A2D61966C00C3F98C /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		D66693B02D61838A004274B1 /* XYZWaveAndVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZWaveAndVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 		D66693A72D61838A004274B1 = {
 			isa = PBXGroup;
 			children = (
+				D60E8A5A2D61966C00C3F98C /* LICENSE.txt */,
 				D66693B22D61838A004274B1 /* XYZWaveAndVoice */,
 				D66693B12D61838A004274B1 /* Products */,
 				A7F53E836ACBBE54ADBEA3E1 /* Pods */,
@@ -148,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60E8A5B2D61966C00C3F98C /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

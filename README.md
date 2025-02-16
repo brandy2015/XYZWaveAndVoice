@@ -23,6 +23,7 @@ This library simplifies the integration of voice processing, providing a seamles
 ## Installation
  
 ## CocoaPods
+![CocoaPods logo](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/CocoaPods-logo.png/800px-CocoaPods-logo.png)
 
 To install XYZWaveAndVoice via CocoaPods, add the following line to your `Podfile`:
 

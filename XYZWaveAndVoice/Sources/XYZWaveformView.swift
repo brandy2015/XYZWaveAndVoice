@@ -7,7 +7,7 @@ public class XYZWaveformView: UIView {
     
     fileprivate var _phase: CGFloat = 0.0
     fileprivate var _amplitude: CGFloat = 0 // 振幅
-    fileprivate var _amplitudeMultiply: CGFloat = 5 //增大
+    
 
     @IBInspectable public var waveColor: UIColor = .black
     @IBInspectable public var numberOfWaves = 5
@@ -17,7 +17,10 @@ public class XYZWaveformView: UIView {
     @IBInspectable public var frequency: CGFloat = 1.25
     @IBInspectable public var density: CGFloat = 5
     @IBInspectable public var phaseShift: CGFloat = -0.15
-
+    
+    @IBInspectable public var _amplitudeMultiply: CGFloat = 3 //增大
+    
+    
     @IBInspectable public var amplitude: CGFloat {
         get {
             return _amplitude

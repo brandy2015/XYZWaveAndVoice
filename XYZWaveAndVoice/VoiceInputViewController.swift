@@ -8,7 +8,7 @@ import XYZWaveAndVoice
 class VoiceInputViewController: UIViewController, SFSpeechRecognizerDelegate {
     
     // Audio Recording and Speech Recognition
-    var audioEngine: AVAudioEngine!  // Initialize audio engine
+    var audioEngine: AVAudioEngine!        // Initialize audio engine
     var audioRecorder: AVAudioRecorder!
     var speechRecognizer: SFSpeechRecognizer!
     var recognitionRequest: SFSpeechAudioBufferRecognitionRequest!

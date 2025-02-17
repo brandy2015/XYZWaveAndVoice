@@ -26,6 +26,10 @@ This library simplifies the integration of voice processing, providing a seamles
 Watch the video demonstration of XYZWaveAndVoice in action:  
 [XYZWaveAndVoice Demo Video](https://github.com/brandy2015/XYZWaveAndVoice/blob/main/Arts/demo.mov)
 
+Here’s a quick demo of how XYZWaveAndVoice works:
+
+![Demo](https://github.com/brandy2015/XYZWaveAndVoice/blob/main/Arts/demo.gif)
+
 
 ## Demo Code
 [Demo Code VC](https://github.com/brandy2015/XYZWaveAndVoice/blob/main/XYZWaveAndVoice/VoiceInputViewController.swift)

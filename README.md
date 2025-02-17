@@ -45,8 +45,8 @@ Here’s a quick demo of how XYZWaveAndVoice works:
 - iOS 15.0+
 - Xcode 16.0+
 - Swift 5.0+
-- AVFoundation Framework
-- Speech Framework
+- AVFoundation Framework（iOS）
+- Speech Framework（iOS）
 
 ## Installation
  

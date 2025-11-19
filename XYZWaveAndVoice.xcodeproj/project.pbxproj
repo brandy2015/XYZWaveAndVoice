@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6B7BE39334DA698E7CCD7809 /* Pods_XYZWaveAndVoice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A0FA058A796F053F1FBEC7 /* Pods_XYZWaveAndVoice.framework */; };
+		D6EC06562E30F5B7002688FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EC06482E30F5B7002688FF /* AppDelegate.swift */; };
+		D6EC06572E30F5B7002688FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EC06492E30F5B7002688FF /* SceneDelegate.swift */; };
+		D6EC06582E30F5B7002688FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EC064A2E30F5B7002688FF /* ViewController.swift */; };
+		D6EC06592E30F5B7002688FF /* XYZWaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EC064C2E30F5B7002688FF /* XYZWaveformView.swift */; };
+		D6EC065A2E30F5B7002688FF /* VoiceInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EC06542E30F5B7002688FF /* VoiceInputViewController.swift */; };
+		D6EC065B2E30F5B7002688FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6EC064E2E30F5B7002688FF /* Assets.xcassets */; };
+		D6EC065D2E30F5B7002688FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6EC06512E30F5B7002688FF /* LaunchScreen.storyboard */; };
+		D6EC065E2E30F5B7002688FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6EC06532E30F5B7002688FF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -15,28 +23,16 @@
 		57A0FA058A796F053F1FBEC7 /* Pods_XYZWaveAndVoice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZWaveAndVoice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		678900283FCE054845DEBFA7 /* Pods-XYZWaveAndVoice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZWaveAndVoice.release.xcconfig"; path = "Target Support Files/Pods-XYZWaveAndVoice/Pods-XYZWaveAndVoice.release.xcconfig"; sourceTree = "<group>"; };
 		D66693B02D61838A004274B1 /* XYZWaveAndVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZWaveAndVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6EC06482E30F5B7002688FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6EC06492E30F5B7002688FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D6EC064A2E30F5B7002688FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6EC064C2E30F5B7002688FF /* XYZWaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZWaveformView.swift; sourceTree = "<group>"; };
+		D6EC064E2E30F5B7002688FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6EC064F2E30F5B7002688FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6EC06502E30F5B7002688FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6EC06522E30F5B7002688FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6EC06542E30F5B7002688FF /* VoiceInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceInputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D66693C22D61838B004274B1 /* Exceptions for "XYZWaveAndVoice" folder in "XYZWaveAndVoice" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = D66693AF2D61838A004274B1 /* XYZWaveAndVoice */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		D66693B22D61838A004274B1 /* XYZWaveAndVoice */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				D66693C22D61838B004274B1 /* Exceptions for "XYZWaveAndVoice" folder in "XYZWaveAndVoice" target */,
-			);
-			path = XYZWaveAndVoice;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D66693AD2D61838A004274B1 /* Frameworks */ = {
@@ -70,7 +66,7 @@
 		D66693A72D61838A004274B1 = {
 			isa = PBXGroup;
 			children = (
-				D66693B22D61838A004274B1 /* XYZWaveAndVoice */,
+				D6EC06552E30F5B7002688FF /* XYZWaveAndVoice */,
 				D66693B12D61838A004274B1 /* Products */,
 				A7F53E836ACBBE54ADBEA3E1 /* Pods */,
 				42225697238394E8A4B19121 /* Frameworks */,
@@ -83,6 +79,38 @@
 				D66693B02D61838A004274B1 /* XYZWaveAndVoice.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D6EC064B2E30F5B7002688FF /* No use */ = {
+			isa = PBXGroup;
+			children = (
+				D6EC06482E30F5B7002688FF /* AppDelegate.swift */,
+				D6EC06492E30F5B7002688FF /* SceneDelegate.swift */,
+				D6EC064A2E30F5B7002688FF /* ViewController.swift */,
+			);
+			path = "No use";
+			sourceTree = "<group>";
+		};
+		D6EC064D2E30F5B7002688FF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D6EC064C2E30F5B7002688FF /* XYZWaveformView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D6EC06552E30F5B7002688FF /* XYZWaveAndVoice */ = {
+			isa = PBXGroup;
+			children = (
+				D6EC064B2E30F5B7002688FF /* No use */,
+				D6EC064D2E30F5B7002688FF /* Sources */,
+				D6EC064E2E30F5B7002688FF /* Assets.xcassets */,
+				D6EC064F2E30F5B7002688FF /* Info.plist */,
+				D6EC06512E30F5B7002688FF /* LaunchScreen.storyboard */,
+				D6EC06532E30F5B7002688FF /* Main.storyboard */,
+				D6EC06542E30F5B7002688FF /* VoiceInputViewController.swift */,
+			);
+			path = XYZWaveAndVoice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,9 +128,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				D66693B22D61838A004274B1 /* XYZWaveAndVoice */,
 			);
 			name = XYZWaveAndVoice;
 			productName = XYZWaveAndVoice;
@@ -148,6 +173,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6EC065B2E30F5B7002688FF /* Assets.xcassets in Resources */,
+				D6EC065D2E30F5B7002688FF /* LaunchScreen.storyboard in Resources */,
+				D6EC065E2E30F5B7002688FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,10 +211,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6EC06562E30F5B7002688FF /* AppDelegate.swift in Sources */,
+				D6EC06572E30F5B7002688FF /* SceneDelegate.swift in Sources */,
+				D6EC06582E30F5B7002688FF /* ViewController.swift in Sources */,
+				D6EC06592E30F5B7002688FF /* XYZWaveformView.swift in Sources */,
+				D6EC065A2E30F5B7002688FF /* VoiceInputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6EC06512E30F5B7002688FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6EC06502E30F5B7002688FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D6EC06532E30F5B7002688FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6EC06522E30F5B7002688FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D66693C42D61838B004274B1 /* Debug */ = {
